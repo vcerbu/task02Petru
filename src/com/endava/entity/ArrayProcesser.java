@@ -4,19 +4,6 @@ package com.endava.entity;
  * Created by vcerbu on 3/27/2017.
  */
 
-//task 2:
-//        All good, just a couple of observations on ArrayProcesser:
-//        1) It doesn't need nrElements, it's safer to use "elements.length" instead."
-//        2) As I understood the task, you must find not 1 or 2 after 1, but only 2 after 1, so it should be false in your case.
-//        3) Isn't it better to make "c" boolean?
-//        4)
-//        if (c >= 1)
-//        return true;
-//        else
-//        return false;
-//
-//        could just return c >= 1
-
 public class ArrayProcesser {
 
     int elements[];
